@@ -1,3 +1,23 @@
-.container {
-  padding-top: 40px;
+header {
+  height: 40px;
+  outline: 1px solid;
 }
+body {
+  heigh: 100%;
+  margin: 0px;
+  outline: 1px solid red;
+  display: flex;
+}
+#sidebar {
+  height: 100%;
+  width: 100px;
+  float: left;
+  outline: 2px solid green;
+}
+#content {
+  width: 100%;
+  float: left;
+  outline: 2px solid blue;
+  }
+
+
