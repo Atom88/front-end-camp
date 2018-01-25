@@ -3,18 +3,71 @@
 }
 header {
   height: 40px;
-  outline: 1px solid red;
+  outline: 1px solid mediumblue;
 }
 nav {
   float: left;
   width: 100px;
-  height: 1000px;
+  height: 800px;
   outline: 1px solid green;
-}
+  }
 main {
   margin-left: 100px;
   outline: 1px solid blue;
-  height: 1000px;
+  height: 800px;
+}
+header ul{
+  height: 40px;
+  display: flex;
+  outline: 2px solid red;
+  padding: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
+header ul li {
+  outline: 1px solid black;
+  list-style-type: none;
+  padding: 5px;
+  margin-right: 15px;
+  }
 
+nav ul{
+  height: 200px;
+  display: flex;
+  outline: 2px solid red;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  outline: 1px solid black;
+  list-style-type: none;
+  margin:15px auto;
+  padding: 5px;
+  }
+
+main {
+  position: relative;
+}
+
+main div {
+  width: 1000px;
+  height: 600px;
+  outline: 1px solid black;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-left: 10px;
+}
