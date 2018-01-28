@@ -18,13 +18,10 @@ nav {
   outline: 1px solid green;
   }
 main {
-  z-index: 1;
   position: absolute;
-  margin-top: 41px;
   margin-left: 101px;
-  border: 1px solid blue;
-  height: 100%;
-  width: 100%;
+  margin-top: 41px;
+
 }
 header ul{
   height: 40px;
@@ -69,10 +66,11 @@ img {
   margin-left: 10px;
 }
 #maincont {
+  background-color: greenyellow;
   border: 1px solid black;
   margin-left: 50px;
   margin-right: 200px;
-  margin-top: 60px;
+
 
 }
 .floating-box {
@@ -82,3 +80,4 @@ img {
   margin: 20px;
   border: 1px solid green;
 }
+
