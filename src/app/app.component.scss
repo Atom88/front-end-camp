@@ -24,7 +24,7 @@ main {
   margin-left: 101px;
   border: 1px solid blue;
   height: 100%;
-  width: "100%-101px";
+  width: 100%;
 }
 header ul{
   height: 40px;
@@ -70,14 +70,15 @@ img {
 }
 #maincont {
   border: 1px solid black;
-  margin-top: 50px;
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 200px;
+  margin-top: 60px;
+
 }
 .floating-box {
   display: inline-block;
   width: 200px;
   height: 125px;
   margin: 20px;
-  border: 1px solid #73AD21;
+  border: 1px solid green;
 }
