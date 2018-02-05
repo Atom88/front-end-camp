@@ -1,13 +1,3 @@
-header {
-  background-color: darkgray;
-  width: 100%;
-  max-width: 1600px;
-  position: fixed;
-  height: 40px;
-  border: 1px solid mediumblue;
-  z-index: 3;
-}
-
 nav {
   background-color: aliceblue;
   z-index: 2;
@@ -24,22 +14,7 @@ main {
   margin-top: 41px;
 
 }
-header ul{
-  height: 40px;
-  display: flex;
-  border: 1px solid red;
-  padding: 0px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
 
-header ul li {
-  border: 1px solid black;
-  list-style-type: none;
-  padding: 5px;
-  margin-right: 15px;
-  }
 
 nav ul{
   height: 200px;
@@ -59,13 +34,6 @@ nav ul li {
   padding: 5px;
   }
 
-img {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  padding: 5px;
-  margin-left: 10px;
-}
 #maincont {
   background-color: greenyellow;
   border: 1px solid black;
