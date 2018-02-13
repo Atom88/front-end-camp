@@ -5,7 +5,7 @@
   min-width: 600px;
   position: fixed;
   height: 40px;
-  border-bottom: 1px solid #3c4034;
+  border-bottom: 1px solid #515549;
   z-index: 3;
 }
 
@@ -56,19 +56,37 @@ img {
 
 .pod_menu li:hover {
   margin-top: 1px;
-  background-color: #f7ecf1;
+  background-color: #b9b9b9;
 }
 
 
-.pod_pod_menu {
+.pod_menu ul {
   position: absolute;
   margin-top: -1500px;
   opacity: 0;
 }
 
-.pod_menu li:hover .pod_pod_menu{
+.pod_menu li:hover .pod_pod_menu_h{
   padding: 0;
   opacity: 1;
   margin-top: -15px;
-  margin-left: 52px;
+  margin-left: 58px;
 }
+
+.pod_menu li:hover .pod_pod_menu_a{
+  padding: 0;
+  opacity: 1;
+  margin-top: -15px;
+  margin-left: 61px;
+}
+
+a {
+  color: #371d55;
+  text-decoration: none;
+  text-shadow: -1px -2px 0.5em rgba(0, 0, 0, 0.63);
+}
+
+a:active {
+  color: #ddc5ff;
+}
+
