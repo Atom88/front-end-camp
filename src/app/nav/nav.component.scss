@@ -1,17 +1,17 @@
 nav {
-  background-color: #bbc2c7;
+  background: linear-gradient(#98c2cb, #87838d );
   z-index: 2;
-  margin-top: 41px;
+  margin-top: 40px;
   position: fixed;
   float: left;
   width: 101px;
   height: 100%;
+  font: bold 12pt sans-serif;
 }
 
 nav ul{
   height: 200px;
   display: flex;
-
   padding: 0px;
   margin: 0px;
   flex-direction: column;
@@ -20,8 +20,19 @@ nav ul{
 }
 
 nav ul li {
-  border: 1px solid black;
+  border-radius: 3px;
   list-style-type: none;
   margin:15px auto;
   padding: 5px;
+}
+
+a {
+  color: #371d55;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+a:active {
+  color: #371d55;
+  text-shadow: 0 0 20px rgba(0,0,0,1);
 }

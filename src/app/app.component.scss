@@ -2,22 +2,32 @@ main {
   position: absolute;
   margin-left: 101px;
   margin-top: 41px;
-
 }
 
 #maincont {
-  background-color: #fbfffd;
-  border: 1px solid black;
+  background-color: #83c5bf;
+  border-radius: 15px;
   margin-left: 50px;
   margin-right: 200px;
-
-
+  margin-top: 40px;
 }
+
 .floating-box {
   display: inline-block;
   width: 200px;
   height: 125px;
   margin: 20px;
-  border: 1px solid green;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.floating-box:hover {
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.floating-box:active {
+  box-shadow: 0 0 40px rgba(61, 122, 145, 0.9);
+  background-color: #90d6d0;
+
+}
