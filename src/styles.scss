@@ -24,14 +24,16 @@ html {
 
 body {
   margin: 0;
-  background-color: #f4f4f4;
+ /* background-color: #f4f4f4;*/
+  background-image: url("html.jpg");
 }
 
 #main {
   margin: 0 auto;
   max-width: 1600px;
   position: relative;
-}
+ }
+
 #headerbg {
   height: 40px;
   width: 100%;
@@ -40,7 +42,7 @@ body {
 }
 
 #footerbg {
-  height: 160px;
+  height: 80px;
   width: 100%;
   background-image: url("headbg.jpg");
   position: fixed;

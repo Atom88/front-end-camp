@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 1600px;
   min-width: 600px;
-  position: fixed;
+  position: absolute;
   height: 40px;
  /* border-bottom: 1px solid #98c2cb;*/
   z-index: 3;
@@ -43,7 +43,8 @@ img {
 }
 
 .pod_menu li {
-  background: radial-gradient(#87838d, #98c2cb);
+  background-image:url("headbg.jpg");
+  opacity: 0.7;
   padding: 5px;
 }
 
@@ -54,7 +55,8 @@ img {
 }
 
 .pod_menu li:hover {
-  background: radial-gradient(#b2e9e6, #a29ea8);
+  background-image:url("headbg.jpg");
+  opacity: 1;
 }
 
 .pod_menu ul {
@@ -78,12 +80,12 @@ img {
 }
 
 a {
-  color: #371d55;
+  color: #eeeeee;
   text-decoration: none;
-  text-shadow: -1px -2px 0.5em #98c2cb;
+  text-shadow: -1px -2px 0.5em #769cc4;
 }
 
 a:active {
-  color: #3d7a91;
+  color: #373737;
 }
 
