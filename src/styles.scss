@@ -13,7 +13,6 @@ html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background-color: rgba(148, 199, 196, 0.69);
 }
 
 /* Sections
@@ -25,8 +24,30 @@ html {
 
 body {
   margin: 0;
+  background-color: #f4f4f4;
 }
 
+#main {
+  margin: 0 auto;
+  max-width: 1600px;
+  position: relative;
+}
+#headerbg {
+  height: 40px;
+  width: 100%;
+  background-image: url("headbg.jpg");
+  position: absolute;
+}
+
+#footerbg {
+  height: 160px;
+  width: 100%;
+  background-image: url("headbg.jpg");
+  position: fixed;
+  bottom: 0px;
+
+
+}
 /**
  * Add the correct display in IE 9-.
  */
@@ -447,9 +468,4 @@ template {
   display: none;
 }
 
-body{
-  margin: 0 auto;
-  max-width: 1600px;
-  background-color: lightcyan;
-  position: relative;
-}
+
