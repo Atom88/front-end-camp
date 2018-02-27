@@ -28,20 +28,20 @@ body {
   background-image: url("html.jpg");
 }
 
-#main {
+.main {
   margin: 0 auto;
   max-width: 1600px;
   position: relative;
  }
 
-#headerbg {
+.headerbg {
   height: 40px;
   width: 100%;
   background-image: url("headbg.jpg");
   position: absolute;
 }
 
-#footerbg {
+.footerbg {
   height: 80px;
   width: 100%;
   background-image: url("headbg.jpg");

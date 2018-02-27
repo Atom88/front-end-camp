@@ -1,13 +1,13 @@
 main {
-  position: absolute;
-  margin-left: 101px;
-  margin-top: 41px;
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+  padding-left: 120px;
+  padding-top: 50px;
 }
 
-#maincont {
-  margin-left: 50px;
-  margin-right: 200px;
-  margin-top: 40px;
+.maincont {
+  padding: 20px;
   border: 1px solid #55779b;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);

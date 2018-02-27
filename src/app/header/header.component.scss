@@ -1,9 +1,10 @@
 .header {
   /*background: linear-gradient(to bottom, #98c2cb, #87838d);*/
+  margin: 0 auto;
   width: 100%;
   max-width: 1600px;
   min-width: 600px;
-  position: absolute;
+  position: relative;
   height: 40px;
  /* border-bottom: 1px solid #98c2cb;*/
   z-index: 3;
